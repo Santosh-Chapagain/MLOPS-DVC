@@ -14,9 +14,9 @@ def save_employees_csv(data: dict) -> None:
 
 
 data = {
-    "name": ["Alice", "Bob", "Charlie"],
-    "age": [25, 30, 22],
-    "salary": [50000, 60000, 45000]
+    "name": ["Alice", "Bob", "Charlie", "Sailesh", "Lukas"],
+    "age": [25, 30, 22, 19, 24],
+    "salary": [50000, 60000, 45000, 55000, 80000]
 }
 
 save_employees_csv(data)
